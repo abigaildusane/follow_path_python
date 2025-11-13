@@ -37,5 +37,9 @@ for step in range(180):
         t.forward(4)
         t.right(2)
 
+t.goto(50, 0)
+for step in range(180):
+        t.forward(4)
+        t.right(2)
 
 turtle.done()
