@@ -11,9 +11,8 @@ t.goto(0, 0)
 t.pendown()
 
 # move across the screen smoothly
-for step in range(100):
+for step in range(200):
     t.forward(4)
     t.right(2)
-    time.sleep(0.02)  
-
+     
 turtle.done()
