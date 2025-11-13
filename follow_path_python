@@ -7,7 +7,7 @@ t.speed(0)
 
 # start on left side
 t.penup()
-t.goto(-200, 0)
+t.goto(0, 0)
 t.pendown()
 
 # move across the screen smoothly
