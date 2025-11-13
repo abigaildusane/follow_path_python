@@ -1,0 +1,19 @@
+import turtle
+import time
+
+t = turtle.Turtle()
+t.shape("turtle")
+t.speed(0)   
+
+# start on left side
+t.penup()
+t.goto(-200, 0)
+t.pendown()
+
+# move across the screen smoothly
+for step in range(100):
+    t.forward(4)
+    t.right(2)
+    time.sleep(0.02)  
+
+turtle.done()
